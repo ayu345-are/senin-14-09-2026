@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Live Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Class Room Chat 💬</h2>
+    </div>
+    <!---area pesan -->
+    <div id="chat-box" class="chat-box"></div>
+    
+    <!---area pesan -->
+    
+    <form id="chat-form" class="chat-form">
+      <input type="text" id="username" placeholder="Nama..." required />
+      <input type="text" id="message" placeholder="Ketik Pesan..." required autocomplete="off" />
+      
+      <button type="submit">Kirim</button>
+    </form>
+    
+    
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
